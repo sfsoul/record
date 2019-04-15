@@ -24,4 +24,4 @@ which manages your SSH keys and remembers your passphrase.**
 ### 参考文章
 - [Checking for existing SSH keys](https://help.github.com/en/articles/checking-for-existing-ssh-keys)
 - [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- []()
+- [Working with SSH key passphrases](https://help.github.com/en/articles/working-with-ssh-key-passphrases)
