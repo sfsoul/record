@@ -40,3 +40,5 @@ Host *
 - [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Working with SSH key passphrases](https://help.github.com/en/articles/working-with-ssh-key-passphrases)
 - [MAC终端 SSH登陆：Enter passphrase for key](https://www.jianshu.com/p/5a5f3867d425)
+- [Adding a new SSH key to your Github account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
+- [About SSH](https://help.github.com/en/articles/about-ssh)
