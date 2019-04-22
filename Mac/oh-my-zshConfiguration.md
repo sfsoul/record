@@ -57,3 +57,5 @@ DEFAULT_USER= 'xxxx'
 source .zshrc
 ```
 ![隐藏前缀](https://i.loli.net/2019/04/22/5cbddc805be49.jpg)
+
+### oh-my-zsh好用的插件
