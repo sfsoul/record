@@ -59,3 +59,51 @@ source .zshrc
 ![隐藏前缀](https://i.loli.net/2019/04/22/5cbddc805be49.jpg)
 
 ### oh-my-zsh好用的插件
+首先oh-my-zsh中的插件存放位置分为两种：
+- 1.标准插件位置：`~/.oh-my-zsh/plugins/*`
+- 2.用户自定义插件位置：`~/.oh-my-zsh/custom/plugins/`
+
+插件的配置也很简单，只需要在`.zshrc`文件中将想用的插件配置进入plugins这个变量中即可。
+```
+vim .zshrc
+
+// 编辑plugins变量，加入插件
+plugins = (
+    git
+    autojump
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+
+source .zshrc
+```
+#### git（默认已开启）
+**作用：可以使用各种`git`命令缩写。**
+```
+// 例如：
+git add ===> ga
+git log --pretty=oneline ===> gsl
+```
+**查看所有`git`命令缩写**
+
+`cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh`
+
+**或者筛选对应的命令，如和`git`有关的命令。**
+
+`alias | grep git`
+
+#### autojump
+[autojump官网](https://github.com/wting/autojump)
+
+> autojump is a faster way to navigate your filesystem. It works by maintaining a database of
+the directories you use the most from the command line. Directories must be visited first before they can be jumped to.
+
+以上内容是 **autojump官网**对 `autojump`的描述，可以大概分为两点理解：
+- autojump能够快速的导航跳转到我们的文件系统，它的工作原理是维护一个数据库，数据库中记录了用户使用多次的命令行。
+- 目录文件要能够被autojump跳转过去，需要在之前有访问过。（因为它的原理储存用户输入过的命令行）
+
+#### git-open
+[git-open官网](https://github.com/paulirish/git-open)
+
+> Type `git-open` to open the repo website（Github，Gitlab，Bitbucket）in your browser.
+
