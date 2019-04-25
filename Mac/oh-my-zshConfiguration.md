@@ -107,3 +107,40 @@ the directories you use the most from the command line. Directories must be visi
 
 > Type `git-open` to open the repo website（Github，Gitlab，Bitbucket）in your browser.
 
+作用：**当你在自己的本地机器上将代码提交到远程库（github）上时，输入`git-open`就会立马在浏览器中打开此项目的github地址。**
+
+##### Installation
+因为我的终端下载了Oh-My-Zsh,所以这块的下载我只介绍跟Oh-My-Zsh相关，其他下载方式可以到官网上看。
+- `git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open`
+- Add git-open to your plugin list - edit ~/.zshrc and change plugins=(...) to plugins=(... git-open)
+- `source .zshrc`
+
+只需要简单的三步就可以在终端使用`git-open`命令啦。
+
+**特别注意：`git-open`命令是要在当前目录属于一个`git repository`时才生效的，否则会提示失败。**
+![失败的git-open场景](https://i.loli.net/2019/04/24/5cc07b28b8d35.jpg)
+
+
+### 其他插件
+#### trash
+[trash官网](https://github.com/sindresorhus/trash)
+> Move files and folders to the trash. In contrast to `fs.unlink`,`del`, and `rimraf` which permanently
+delete files, this only moves them to the trash, which is much safer and reversible.
+
+**Install through CLI**
+```
+// To install the trash command, run：
+npm install --global trash-cli
+```
+
+#### bat
+[bat](https://github.com/sharkdp/bat)
+> A cat(1) clone with syntax highlighting and Git integration
+
+**Installation**
+
+`brew install bat`
+
+### 参考文章
+- [zsh oh-my-zsh 插件推荐](https://hufangyun.com/2017/zsh-plugin/)
+- []()
