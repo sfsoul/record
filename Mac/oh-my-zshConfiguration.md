@@ -134,13 +134,19 @@ npm install --global trash-cli
 ```
 
 #### bat
-[bat](https://github.com/sharkdp/bat)
+[bat官网](https://github.com/sharkdp/bat)
 > A cat(1) clone with syntax highlighting and Git integration
 
 **Installation**
 
 `brew install bat`
 
+**effect**
+
+- Syntax highlighting：`bat` supports syntax highlighting for a large number og programming and markup languages。
+- Git integration：`bat` communicates with `git` to show modifications with respect to the index。
+- Show non-printable characters：use the `-A/--show-all` option to show and highlight non-printable characters。
+- Automatic paging：`bat` can pipe its own output to `less` if the output is too large for one screen。
 ### 参考文章
 - [zsh oh-my-zsh 插件推荐](https://hufangyun.com/2017/zsh-plugin/)
 - []()
